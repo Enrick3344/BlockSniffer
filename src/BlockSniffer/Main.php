@@ -44,7 +44,7 @@ class Main extends PluginBase  implements Listener {
 		$this->killOld();
 	}
 	
-	public function onCommand(CommandSender $sender, Command $command, $label, array $args) {
+	public function onCommand(CommandSender $sender, Command $command, string $label, array $args): bool{
 		if($sender instanceof Player) {
                     $player = $sender->getPlayer()->getName();
                     $auth = $this->getConfig()->get($player);
