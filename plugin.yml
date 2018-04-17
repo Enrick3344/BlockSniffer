@@ -3,7 +3,7 @@ author: DRedDogPE
 description: Trace block interaction!
 version: 1.0.0
 main: BlockSniffer\Main
-api: [1.12.0]
+api: [3.0.0-ALPHA12]
 commands:
   bs:
     description: Use /bs here
